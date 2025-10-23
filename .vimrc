@@ -90,6 +90,9 @@ Plug 'sheerun/vim-polyglot'
 " Easily change, delete, and add surrounding pairs (quotes, brackets, etc.)
 Plug 'tpope/vim-surround'
 
+" Molokai color scheme
+Plug 'tomasr/molokai'
+
 " =========================================================================
 " === Language-Specific Plugins                                         ===
 " =========================================================================
@@ -116,3 +119,8 @@ Plug 'prettier/vim-prettier'
 " =========================================================================
 " This must be the last line in the plugin section
 call plug#end()
+
+" =========================================================================
+" === Color Scheme                                                      ===
+" =========================================================================
+colorscheme molokai
