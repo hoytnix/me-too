@@ -93,6 +93,9 @@ Plug 'tpope/vim-surround'
 " Molokai color scheme
 Plug 'tomasr/molokai'
 
+" Gruvbox colorscheme
+Plug 'morhetz/gruvbox'
+
 " =========================================================================
 " === Language-Specific Plugins                                         ===
 " =========================================================================
@@ -123,4 +126,5 @@ call plug#end()
 " =========================================================================
 " === Color Scheme                                                      ===
 " =========================================================================
-colorscheme molokai
+set background=dark
+colorscheme gruvbox
